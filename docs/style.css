@@ -1,0 +1,40 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    }
+    body, div, h1, p { 
+    padding: 0;
+    margin: 2rem 0 0;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    }
+    .main-block {
+    display: block;
+    margin: auto;
+    text-align: center;
+    }
+    iframe {
+        width: 640px; 
+        height: 1552px;
+    }
+@media only screen and (max-width: 780px) {
+    iframe {
+        width: 540px; 
+        height: 1352px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    iframe {
+        padding: 0.5rem;
+        width: 400px; 
+        height: 1152px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    iframe {
+        width: 300px; 
+        height: 1052px;
+    }
+}
